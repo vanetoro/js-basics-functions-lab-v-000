@@ -1,6 +1,6 @@
 // Code your solution in this file!
 
 function distanceFromHqInBlocks(pickUp){
-   return pickUp -42
+   return Math.abs(pickUp -42)
   
 }
