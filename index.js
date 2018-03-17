@@ -14,7 +14,7 @@ function distanceTravelledInFeet(pickUp, dropOff){
 function calculatesFarePrice(start, destination){
   let distance = Math.abs(start - destination)
   
-  switch(distance){
+  switch(true){
     case distance <= 400:
       return 0;
     case distance > 400 && distance <= 2000:
