@@ -12,7 +12,7 @@ function distanceTravelledInFeet(pickUp, dropOff){
 }
 
 function calculatesFarePrice(pickUp,dropOff){
-  let distance = distanceTravelledInFeet(pickUp, dropOff)
+  let distance = distanceTravelledInFeet(pickUp, dropOff);
   switch(distance){
     case (distance < 400):
       return 0;
