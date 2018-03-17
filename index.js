@@ -7,6 +7,6 @@ function distanceFromHqInFeet(pickUp){
   return distanceFromHqInBlocks(pickUp) * 264
 }
 
-function distanceTravelledInFeet(){
-  
+function distanceTravelledInFeet(pickUp, dropOff){
+  return (pickUp - dropOff) * 264
 }
