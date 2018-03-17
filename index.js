@@ -4,5 +4,5 @@ function distanceFromHqInBlocks(pickUp){
    return Math.abs(pickUp -42)
 }
 function distanceFromHqInFeet(pickUp){
-  distanceFromHqInBlocks(pickUp) *
+  return distanceFromHqInBlocks(pickUp) * 264
 }
