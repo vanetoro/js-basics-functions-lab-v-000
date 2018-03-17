@@ -14,13 +14,13 @@ function distanceTravelledInFeet(pickUp, dropOff){
 function calculatesFarePrice(pickUp,dropOff){
   let distance = distanceTravelledInFeet(pickUp, dropOff);
   switch(distance){
-    case (distance < 400):
+    case distance < 400:
       return 0;
-    case (distance > 400 && distance < 2000):
+    case distance > 400 && distance < 2000:
     return distance * 2;
-    case (distance > 2000 && distance < 2500):
+    case distance > 2000 && distance < 2500:
     return 25;
-    case (distance > 2500):
+    case distance > 2500:
       return 'cannot travel that far'
   }
 }
