@@ -10,3 +10,7 @@ function distanceFromHqInFeet(pickUp){
 function distanceTravelledInFeet(pickUp, dropOff){
   return Math.abs((pickUp - dropOff) * 264)
 }
+
+function calculatesFarePrice(start,destination){
+  
+}
