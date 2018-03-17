@@ -17,10 +17,10 @@ function calculatesFarePrice(pickUp,dropOff){
     case (distance < 400):
       return 0;
     case (distance > 400 && distance < 2000):
-    return distance * 2:
+    return distance * 2;
     case (distance > 2000 && distance < 2500):
-    return 25
+    return 25;
     case (distance > 2500):
-      return 
+      return 'cannot travel that far'
   }
 }
