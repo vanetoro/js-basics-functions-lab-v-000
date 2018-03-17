@@ -8,5 +8,5 @@ function distanceFromHqInFeet(pickUp){
 }
 
 function distanceTravelledInFeet(pickUp, dropOff){
-  return (pickUp - dropOff) * 264
+  return Math.abs((pickUp - dropOff) * 264)
 }
